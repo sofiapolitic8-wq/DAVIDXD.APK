@@ -1,0 +1,9 @@
+# DAVID.IO source rebuild changes
+
+- App label, Android namespace, and application ID: `DAVID.IO` / `io.david.mobile`.
+- Updated visible app-owned UI wordmarks and labels to DAVID.IO.
+- Corrected JNI exported function names to match `io.david.mobile.DavidActivity`; the prior symbols still used a different Java package and would not resolve through standard JNI name lookup.
+- Preserved GPL-3.0 `LICENSE`, `NOTICE`, and third-party license/attribution files. Required upstream notices must not be deleted or hidden.
+- Team server code and TeamService integration are included; see `server/` and `tests/`.
+- The server default URL is `https://lwkmod-team-server.onrender.com`; online availability is external and is not guaranteed by this source archive.
+- No claim of a successful APK build or physical-device test is made. See `HANDOFF.txt` for outstanding validation.
